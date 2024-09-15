@@ -7,78 +7,92 @@
     <title>Effortless Copy for Busy Founders</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            background-color: #fff;
+            color: #000;
+            line-height: 1.6;
         }
         header {
-            background-color: #00aaff;
-            color: white;
-            padding: 20px 0;
+            background-color: #000;
+            color: #fff;
+            padding: 40px 0;
             text-align: center;
         }
         header h1 {
+            font-size: 3em;
             margin: 0;
-            font-size: 2.5em;
+            letter-spacing: 2px;
         }
         .container {
-            max-width: 1200px;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
+            text-align: center;
         }
         .intro {
-            text-align: center;
-            margin: 40px 0;
+            margin: 60px 0;
         }
         .intro h2 {
-            font-size: 2em;
-            margin-bottom: 10px;
+            font-size: 2.5em;
+            margin-bottom: 20px;
         }
         .intro p {
             font-size: 1.2em;
-            line-height: 1.6;
+            color: #333;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
         }
         .features {
             display: flex;
-            justify-content: space-around;
-            margin: 40px 0;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 60px 0;
         }
         .feature {
-            background-color: white;
-            border: 1px solid #ddd;
-            padding: 20px;
+            background-color: #f9f9f9;
+            padding: 30px;
             width: 30%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .feature:hover {
+            transform: translateY(-10px);
         }
         .feature h3 {
-            font-size: 1.5em;
+            font-size: 1.8em;
             margin-bottom: 10px;
         }
+        .feature p {
+            font-size: 1.1em;
+            color: #666;
+        }
         .cta {
-            text-align: center;
-            margin: 40px 0;
+            margin: 60px 0;
         }
         .cta button {
-            background-color: #00aaff;
-            color: white;
+            background-color: #000;
+            color: #fff;
             border: none;
-            padding: 15px 30px;
+            padding: 15px 40px;
             font-size: 1.2em;
             cursor: pointer;
-            border-radius: 5px;
+            border-radius: 50px;
             transition: background-color 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .cta button:hover {
-            background-color: #008ecc;
+            background-color: #333;
         }
         footer {
             text-align: center;
-            padding: 20px 0;
-            background-color: #333;
-            color: white;
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
         }
     </style>
 </head>
@@ -90,27 +104,27 @@
 
 <div class="container">
     <section class="intro">
-        <h2>No Meetings. No Hassles. Just Quality Copy.</h2>
-        <p>Get high-quality copy delivered fast without the usual back-and-forth. As a founder, your time is valuable. That's why I’ve streamlined the process—just submit a 5-minute brief and receive ready-to-publish content in 48 hours or less. Only pay if you’re satisfied.</p>
+        <h2>Say Goodbye to Time-Sucking Meetings</h2>
+        <p>As a founder, your time is your most valuable asset. Why waste it? With my service, you submit a 5-minute brief, and I handle the rest. In 48 hours, you’ll receive high-quality copy that’s ready to publish. Only pay if you’re 100% satisfied.</p>
     </section>
 
     <section class="features">
         <div class="feature">
             <h3>5-Minute Brief</h3>
-            <p>Submit a quick Google form with basic info about your company and the asset type you need.</p>
+            <p>Submit a quick, no-frills Google form, outlining the asset type and basic company info. That's it.</p>
         </div>
         <div class="feature">
             <h3>48-Hour Turnaround</h3>
-            <p>Receive polished, ready-to-go copy within 48 hours. No need to wait for endless revisions.</p>
+            <p>Receive polished, ready-to-go copy in under 48 hours, so you can focus on what matters most.</p>
         </div>
         <div class="feature">
             <h3>Only Pay If Satisfied</h3>
-            <p>Not happy with the copy? No problem. You only pay if you’re 100% satisfied with the result.</p>
+            <p>No risk. You only pay if you’re completely happy with the copy you receive. It’s that simple.</p>
         </div>
     </section>
 
     <section class="cta">
-        <h2>Ready to Get Started?</h2>
+        <h2>Ready to Simplify Your Copywriting?</h2>
         <button onclick="window.location.href='https://your-google-form-link.com';">Submit a Brief</button>
     </section>
 </div>
