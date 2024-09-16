@@ -7,72 +7,114 @@
     <title>Effortless Copy for Busy Founders</title>
     <style>
         body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-family: 'Inter', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fff;
-            color: #000;
+            background-color: #f9fafb;
+            color: #333;
             line-height: 1.6;
         }
         header {
-            background-color: #000;
-            color: #fff;
-            padding: 40px 0;
+            padding: 100px 0;
             text-align: center;
+            background-color: #ffffff;
         }
         header h1 {
             font-size: 3em;
-            margin: 0;
-            letter-spacing: 2px;
+            color: #000;
+            margin-bottom: 20px;
         }
-        .container {
-            max-width: 1000px;
+        header p {
+            font-size: 1.5em;
+            color: #555;
+            max-width: 600px;
             margin: 0 auto;
-            padding: 20px;
-            text-align: center;
         }
-        .intro {
-            margin: 60px 0;
-        }
-        .intro h2 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-        .intro p {
-            font-size: 1.2em;
-            color: #333;
-            margin-bottom: 30px;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .features {
+
+        .comparison {
             display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin: 60px 0;
+            justify-content: space-around;
+            padding: 60px 0;
+            background-color: #ffffff;
         }
-        .feature {
-            background-color: #f9f9f9;
+        .comparison .card {
+            background-color: #f9fafb;
+            border: 1px solid #eaeaea;
             padding: 30px;
-            width: 30%;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-            transition: transform 0.3s ease-in-out;
+            width: 40%;
+            border-radius: 10px;
+            text-align: left;
         }
-        .feature:hover {
-            transform: translateY(-10px);
-        }
-        .feature h3 {
+        .comparison .card h3 {
             font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        .comparison .card ul {
+            list-style-type: none;
+            padding: 0;
+            line-height: 1.8;
+        }
+        .comparison .card ul li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        .comparison .card ul li span {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+        .comparison .card-left {
+            background-color: #fff5f5;
+        }
+        .comparison .card-right {
+            background-color: #f0fff4;
+        }
+
+        .testimonial {
+            text-align: center;
+            padding: 60px 0;
+        }
+        .testimonial p {
+            font-size: 1.2em;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .testimonial img {
+            border-radius: 50%;
+            width: 80px;
             margin-bottom: 10px;
         }
-        .feature p {
-            font-size: 1.1em;
-            color: #666;
+        .testimonial .name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .testimonial .social {
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .steps {
+            text-align: center;
+            padding: 60px 0;
+            background-color: #ffffff;
+        }
+        .steps h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        .steps ol {
+            list-style-type: decimal;
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+            padding-left: 20px;
+        }
+        .steps ol li {
+            margin-bottom: 20px;
+            font-size: 1.2em;
         }
         .cta {
-            margin: 60px 0;
+            text-align: center;
+            padding: 60px 0;
         }
         .cta button {
             background-color: #000;
@@ -88,45 +130,61 @@
         .cta button:hover {
             background-color: #333;
         }
+
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #000;
-            color: #fff;
+            background-color: #f9fafb;
+            color: #555;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Effortless Copy for Busy Founders</h1>
+    <h1>Tired of Managing Your Own Copy?</h1>
+    <p>Get high-quality copy delivered in 48 hours without wasting your time on meetings. Only pay if you’re satisfied.</p>
 </header>
 
-<div class="container">
-    <section class="intro">
-        <h2>Say Goodbye to Time-Sucking Meetings</h2>
-        <p>As a founder, your time is your most valuable asset. Why waste it? With my service, you submit a 5-minute brief, and I handle the rest. In 48 hours, you’ll receive high-quality copy that’s ready to publish. Only pay if you’re 100% satisfied.</p>
-    </section>
+<div class="comparison">
+    <div class="card card-left">
+        <h3>Without My Service</h3>
+        <ul>
+            <li><span>&#10060;</span>Manually write or tweak AI-generated copy</li>
+            <li><span>&#10060;</span>Spend hours reviewing and editing</li>
+            <li><span>&#10060;</span>Frequent back-and-forth with freelancers</li>
+            <li><span>&#10060;</span>No guaranteed quality</li>
+        </ul>
+    </div>
+    <div class="card card-right">
+        <h3>With My Service</h3>
+        <ul>
+            <li><span>&#10003;</span>Submit a simple 5-minute brief</li>
+            <li><span>&#10003;</span>Receive polished copy in 48 hours</li>
+            <li><span>&#10003;</span>No meetings or time wasted</li>
+            <li><span>&#10003;</span>Only pay if you’re 100% satisfied</li>
+        </ul>
+    </div>
+</div>
 
-    <section class="features">
-        <div class="feature">
-            <h3>5-Minute Brief</h3>
-            <p>Submit a quick, no-frills Google form, outlining the asset type and basic company info. That's it.</p>
-        </div>
-        <div class="feature">
-            <h3>48-Hour Turnaround</h3>
-            <p>Receive polished, ready-to-go copy in under 48 hours, so you can focus on what matters most.</p>
-        </div>
-        <div class="feature">
-            <h3>Only Pay If Satisfied</h3>
-            <p>No risk. You only pay if you’re completely happy with the copy you receive. It’s that simple.</p>
-        </div>
-    </section>
+<div class="testimonial">
+    <p>"I didn’t want to waste time going back and forth with freelancers. This service gave me exactly what I needed—fast, high-quality copy that I was able to use right away."</p>
+    <img src="https://via.placeholder.com/80" alt="Customer Photo">
+    <div class="name">John Doe</div>
+    <div class="social">Founder of StartupX</div>
+</div>
 
-    <section class="cta">
-        <h2>Ready to Simplify Your Copywriting?</h2>
-        <button onclick="window.location.href='https://your-google-form-link.com';">Submit a Brief</button>
-    </section>
+<div class="steps">
+    <h2>How It Works</h2>
+    <ol>
+        <li>Submit a simple 5-minute brief.</li>
+        <li>Receive your copy in 48 hours or less.</li>
+        <li>Review the copy. Only pay if you're satisfied.</li>
+    </ol>
+</div>
+
+<div class="cta">
+    <button onclick="window.location.href='https://your-google-form-link.com';">Submit a Brief</button>
 </div>
 
 <footer>
